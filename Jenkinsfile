@@ -24,7 +24,9 @@ pipeline {
             }
         }
         stage ('Archive') {
-            archiveArtifacts 'demo_pipeline1.txt'
+            steps {
+                archiveArtifacts 'demo_pipeline1.txt'
+            }
         }
     }
 }
