@@ -23,5 +23,8 @@ pipeline {
                 }
             }
         }
+        stage ('Archive') {
+            archiveArtifacts 'demo_pipeline1.txt'
+        }
     }
 }
