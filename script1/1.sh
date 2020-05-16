@@ -1,3 +1,3 @@
 # Install apache2 
-apt-get update 
-apt-get install -y apache2
+sudo apt-get update 
+sudo apt-get install -y apache2
